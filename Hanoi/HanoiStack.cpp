@@ -55,8 +55,7 @@ class Hanoi{
 public:
     Hanoi(){};
     Hanoi(int num) : size(num) {
-        Tower tow(num);
-        tow1 = num;
+        tow1 = num; // It is interesting how this works
     };
     
     int size {};
